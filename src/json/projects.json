@@ -1,0 +1,62 @@
+{
+  "memory": {
+    "name": "memory game",
+    "blurb": "This is my game of memory. Match all the cards to win!",
+    "description": "",
+    "feature_image": "",
+    "images": ["", ""],
+    "tech": ["", ""],
+    "github": "",
+    "website": ""
+  },
+  "dinoland": {
+    "name": "Dinoland",
+    "blurb": "Create your own dino character!",
+    "description": "",
+    "feature_image": "",
+    "images": ["", ""],
+    "tech": ["", ""],
+    "github": "",
+    "website": ""
+  },
+  "greenify": {
+    "name": "Greenify",
+    "blurb": "A React app that allows will Greenify your life! Rent your pot plants out to a loving community, or search for a new pot plant to join your home for a while.",
+    "description": "",
+    "feature_image": "",
+    "images": ["", ""],
+    "tech": ["React", "Rails", "Moment.js", "react-router-dom", "axios", "cloudinary", "react-datepicker", "JWT and Knock"],
+    "github": "https://github.com/lucyod10/greenify-client",
+    "website": "https://lucyod10.github.io/greenify-client/#/"
+  },
+  "news": {
+    "name": "News App",
+    "blurb": "SPA that collates news from many sources into one place.",
+    "description": "",
+    "feature_image": "",
+    "images": ["", ""],
+    "tech": ["", ""],
+    "github": "",
+    "website": ""
+  },
+  "blog": {
+    "name": "Blog Site",
+    "blurb": "A blogging site.",
+    "description": "",
+    "feature_image": "",
+    "images": ["", ""],
+    "tech": ["Vanilla JS", "Firebase"],
+    "github": "",
+    "website": ""
+  },
+  "maze": {
+    "name": "Maze",
+    "blurb": "A maze made with javascript and p5.",
+    "description": "",
+    "feature_image": "",
+    "images": ["", ""],
+    "tech": ["vanilla javascript", "p5"],
+    "github": "",
+    "website": ""
+  }
+}

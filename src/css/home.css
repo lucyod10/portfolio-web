@@ -1,0 +1,27 @@
+.home {
+  min-height: calc(100vh - 100px);
+  position: relative;
+}
+
+.intro {
+  position: absolute;
+  bottom: 200px;
+  right: 150px;
+
+}
+
+.scroll {
+  position: absolute;
+  bottom: 0px;
+  left: 48%;
+}
+
+.scroll p {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.scroll .arrow {
+  font-size: 2em;
+}
