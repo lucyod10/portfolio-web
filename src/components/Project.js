@@ -30,7 +30,7 @@ class Project extends React.Component {
           <span className="title">Technologies</span>
           <ul>
             { project.tech.map((tech, index) => {
-              return <li key={ index }>{ tech }</li>
+              return <li key={ index }>{ tech.title }</li>
             }) }
           </ul>
 

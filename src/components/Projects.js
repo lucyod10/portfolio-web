@@ -9,7 +9,7 @@ function Projects() {
         <h2>Projects</h2>
         <div className="projects">
           { p.map((project, index) => {
-            return <ProjectItem key={ index } project_id={index} title={project.title} tech="js" />
+            return <ProjectItem key={ index } project_id={ index } title={ project.title } json={ p[index] }/>
           })}
 
         </div>
