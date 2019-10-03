@@ -1,62 +1,95 @@
-{
-  "memory": {
+[
+  {
+    "id": "constellation",
+    "name": "My Constellation",
+    "blurb": "This is a visualisation of the Dijkstra Algorithm in the form of an 8-Bit starry night sky.",
+    "description": "This is a visualisation of the Dijkstra Algorithm in the form of an 8-Bit starry night sky.",
+    "feature_image": "",
+    "images": ["", ""],
+    "tech": ["vanilla javascript", "Facebook API", "HTML/CSS", "HTML Canvas"],
+    "github": "https://github.com/lucyod10/constellations",
+    "website": "https://lucyod10.github.io/constellations/"
+  },
+  {
+    "id": "memory",
     "name": "memory game",
     "blurb": "This is my game of memory. Match all the cards to win!",
-    "description": "",
-    "feature_image": "",
-    "images": ["", ""],
-    "tech": ["", ""],
-    "github": "",
-    "website": ""
+    "description": "This is my memory game, click on any two cards to flip them around. If it's a match then they will stay flipped over, otherwise they will flip back. Once you have all the cards face up, you win!",
+    "feature_image": "../images/memorygame/screenshot_01.png",
+    "images": [
+      {
+        "image": "../images/memorygame/screenshot_combined_01.png",
+        "caption": "Screenshot of web and mobile gameplay"
+      },
+      {
+        "image": "../images/memorygame/screenshot_combined_02.png",
+        "caption": "Screenshot of web and mobile gameplay"
+      },
+      {
+        "image": "../images/memorygame/screenshot_combined_03.png",
+        "caption": "Screenshot of web and mobile gameplay"
+      }
+    ],
+    "tech": [
+      "JavaScript (vanilla)",
+      "HTML/CSS"
+    ],
+    "github": "https://github.com/lucyod10/Memory-Game",
+    "website": "https://lucyod10.github.io/Memory-Game/"
   },
-  "dinoland": {
+  {
+    "id": "dinoland",
     "name": "Dinoland",
     "blurb": "Create your own dino character!",
-    "description": "",
+    "description": "DinoLand is a platform where users can create a collection of their own dinosaur characters, and dress them up in a variety of accessories! With your fresh new characters, play the in built game to earn more coins, so you can change up their fresh looks!",
     "feature_image": "",
     "images": ["", ""],
-    "tech": ["", ""],
-    "github": "",
-    "website": ""
+    "tech": ["Rails", "jQuery", "jQuery UI", "Cloudinary", "Heroku", "Bootstrap"],
+    "github": "https://github.com/lucyod10/dinoland",
+    "website": "https://dinoland-project.herokuapp.com/"
   },
-  "greenify": {
+  {
+    "id": "greenify",
     "name": "Greenify",
     "blurb": "A React app that allows will Greenify your life! Rent your pot plants out to a loving community, or search for a new pot plant to join your home for a while.",
-    "description": "",
+    "description": "A React app that allows will Greenify your life! Rent your pot plants out to a loving community, or search for a new pot plant to join your home for a while.",
     "feature_image": "",
     "images": ["", ""],
     "tech": ["React", "Rails", "Moment.js", "react-router-dom", "axios", "cloudinary", "react-datepicker", "JWT and Knock"],
     "github": "https://github.com/lucyod10/greenify-client",
     "website": "https://lucyod10.github.io/greenify-client/#/"
   },
-  "news": {
+  {
+    "id": "news",
     "name": "News App",
-    "blurb": "SPA that collates news from many sources into one place.",
-    "description": "",
+    "blurb": "A single page application that collates news from many sources into one place.",
+    "description": "This is a news website that compiles articles from a large variety of news sources into the one place. The user is able to filter the sources based on search query, news source and date.",
     "feature_image": "",
     "images": ["", ""],
-    "tech": ["", ""],
-    "github": "",
-    "website": ""
+    "tech": ["React", "JavaScript", "newsapi.org"],
+    "github": "https://github.com/lucyod10/news-app",
+    "website": "https://lucyod10.github.io/news-app/"
   },
-  "blog": {
+ {
+   "id": "blog",
     "name": "Blog Site",
-    "blurb": "A blogging site.",
-    "description": "",
+    "blurb": "This is a simple blog platform I have built using javascript, HTML/CSS, and firebase.",
+    "description": "This is a simple blog platform I have built using javascript, HTML/CSS, and firebase.",
     "feature_image": "",
     "images": ["", ""],
-    "tech": ["Vanilla JS", "Firebase"],
-    "github": "",
-    "website": ""
+    "tech": ["Vanilla JS", "Firebase", "HTML/CSS"],
+    "github": "https://github.com/lucyod10/Noggin-News",
+    "website": "https://lucyod10.github.io/Noggin-News/"
   },
-  "maze": {
+  {
+    "id": "maze",
     "name": "Maze",
     "blurb": "A maze made with javascript and p5.",
-    "description": "",
+    "description": "A maze made with javascript and p5.",
     "feature_image": "",
     "images": ["", ""],
     "tech": ["vanilla javascript", "p5"],
-    "github": "",
-    "website": ""
+    "github": "https://github.com/lucyod10/maze-js",
+    "website": "https://lucyod10.github.io/maze-js/"
   }
-}
+]

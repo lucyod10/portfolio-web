@@ -3,22 +3,35 @@ import React from 'react';
  const p = require("../json/projects.json");
 
 class Project extends React.Component {
-  constructor (props) {
-    super(props);
-  }
-
   render () {
     console.log(p);
     const id = this.props.match.params.id;
+    const project = p[id];
 
     return (
-        <div class="project">
-          <span class="title">{ p[id].name }</span>
-          <p>{ p[id].description }</p>
-          <span class="title">Technologies</span>
+        <div className="project">
+          <span className="title">{ project.name }</span>
+          <p>{ project.description }</p>
+
+          <span className="title">Find me at:</span>
           <ul>
-            <li>{ this.props.tech }</li>
-            <li>HTML/CSS</li>
+            <li><a href={ project.github } target="blank">GitHub</a></li>
+            <li><a href={ project.website } target="blank">Website</a></li>
+          </ul>
+
+          <span className="title">Preview</span>
+          { project.images.map((image, index) => {
+            return <section key={ index }>
+            <img src={ image.image } alt={ image.caption } />
+            <p>{ image.caption }</p>
+            </section>
+          }) }
+
+          <span className="title">Technologies</span>
+          <ul>
+            { project.tech.map((tech, index) => {
+              return <li key={ index }>{ tech }</li>
+            }) }
           </ul>
 
         </div>

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700|Open+Sans&display=swap');
 
 * {
-  color: #77726c;
+  color: #47494a;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.05em;
 }
@@ -17,22 +17,26 @@ h1 {
 }
 
 body {
-  background-color: #eae8dc;
+  background-color: #f9f9f9;
 }
 
 a {
-  color: #77726c;
+  color: #47494a;
   text-decoration: none;
   transition: 0.15s all;
 }
 
 a:hover {
-  color: #b54f44;
+  color: #2a738a;
 }
 
 .container {
   max-width: 700px;
   margin: 0 auto;
+}
+
+h2 {
+  color: #2a738a;
 }
 
 .header {
@@ -55,9 +59,15 @@ nav.menu {
 }
 
 .logo h1 {
-  color: #dc5547;
+  color: #2a738a;
 }
 
 .logo h2 {
-  color: #b54f44;
+  color: #358ba7;
+}
+
+.project {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 40px 0;
 }

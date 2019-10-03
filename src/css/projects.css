@@ -5,17 +5,17 @@
 }
 
 .project-item {
-  background-color: #e1dfd3;
+  background-color: #ffffff;
   border-radius: 2px;
   /* box-shadow: 0 0 10px rgba(50, 30, 30, 0.05); */
   padding: 10px;
   box-sizing: border-box;
-  border-bottom: 12px solid #b54f44;
+  border-bottom: 12px solid #2a738a;
   text-align: center;
 }
 
 .title {
-  color: #dc5547;
+  color: #2a738a;
   display: block;
   font-size: 1.3em;
   text-transform: uppercase;
